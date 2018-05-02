@@ -7,5 +7,4 @@
      return katzDeliLine.shift()
    }
  return "There is nobody waiting to be served!"
-   
- }
+   }
