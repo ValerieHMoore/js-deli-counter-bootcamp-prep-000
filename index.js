@@ -3,5 +3,5 @@ function takeANumber(katzDeliLine, name) {
  for (let i = 0; i < katzDeliLine.length; i++){
    katzDeli.push("Welcome, " + name[i] + ". You are number " + katzDeliLine[i+1] "in line.")
  }
- return index + 1
+ return katzDeli
 }
