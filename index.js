@@ -4,13 +4,8 @@
  }
  function nowServing(katzDeliLine, name){
    while (katzDeliLine.length > 0) {
-     return katzDeliLine
+     return katzDeliLine.shift()
    }
+ return "There is nobody waiting to be served!"
+   
  }
- function whileLoop(n) {
-  let countdown = 100;
-  while (countdown > 0) {
-  console.log(--countdown)
-}
-return 'done'
-}
