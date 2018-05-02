@@ -15,5 +15,5 @@ function currentLine(katzDeliLine) {
     newArray.push("The line is currently: " + [i] + ". " + katzDeliLine.shift())
     i++;
   }
-return "The line is currently empty."
+return newArray
   }
