@@ -14,7 +14,8 @@ function currentLine(katzDeliLine) {
     if (i < katzDeliLine.length) {
     newArray.push("The line is currently: " + [i] + ". " + katzDeliLine.shift())
     i++;
-  return newArray}
+  return newArray
+    }
 else {
   return "The line is currently empty."
   }
