@@ -14,4 +14,6 @@ function currentLine(katzDeliLine) {
   }
 return "The line is currently empty."
   }
-function takeANumber
+function takeANumber(name) {
+  return katzDeliLine.push(name)
+}
