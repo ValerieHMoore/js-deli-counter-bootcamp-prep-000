@@ -18,8 +18,3 @@ function currentLine(katzDeliLine) {
     }
   return "The line is currently empty."
   }
-
-var n = 0;
-while (n < 3) {
-  n++;
-}
