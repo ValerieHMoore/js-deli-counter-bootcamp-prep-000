@@ -9,9 +9,10 @@
  return "There is nobody waiting to be served!"
    }
 function currentLine(katzDeliLine) {
-    var i = 1  
+    var newArray = [];
+    var i = 1; 
     while (i < katzDeliLine.length) {
-    return ("The line is currently: " + [i++] + ". " + katzDeliLine.shift())
+    ("The line is currently: " + [i++] + ". " + katzDeliLine.shift())
   }
 return "The line is currently empty."
   }
