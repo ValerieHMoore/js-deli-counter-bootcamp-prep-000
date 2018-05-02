@@ -10,7 +10,7 @@
    }
 function currentLine(katzDeliLine) {
     var newArray = [];
-    var i = 1; 
+    for (let i = 0; i <katzDeliLine.length; i++) {
     if (i < katzDeliLine.length) {
     newArray.push("The line is currently: " + [i] + ". " + katzDeliLine.shift())
     i++;
