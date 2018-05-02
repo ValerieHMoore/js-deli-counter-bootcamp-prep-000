@@ -4,3 +4,8 @@ function takeANumber(katzDeliLine, name) {
  }
  return katzDeliLine
 }
+function takeANumber(katzDeliLine, name) {
+   katzDeliLine.push(name)
+  //now we need to print the right thing here
+ 
+}
