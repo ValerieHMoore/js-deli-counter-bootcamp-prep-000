@@ -8,6 +8,6 @@
    }
  return "There is nobody waiting to be served!"
    }
-function currentLine(katzDeliLine, name) {
-  return 
+function currentLine(katzDeliLine) {
+  return katzDeliLine.length
 }
