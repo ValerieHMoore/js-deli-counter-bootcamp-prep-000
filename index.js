@@ -10,7 +10,6 @@
    }
 function currentLine(katzDeliLine) {
     var newArray = [];
-    for (let i = 0; i <katzDeliLine.length; i++) {
     if (i < katzDeliLine.length) {
     newArray.push("The line is currently: " + [i] + ". " + katzDeliLine.shift())
     i++;
@@ -18,6 +17,5 @@ function currentLine(katzDeliLine) {
     }
 else {
   return "The line is currently empty."
-  }
   }
 }
