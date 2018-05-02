@@ -3,5 +3,5 @@ function takeANumber(katzDeliLine, name) {
  for (let i = 0; i < katzDeliLine.length; i++){
    katzDeli.push(katzDeliLine + name)
  }
- return katzDeli
+ return index + 1 
 }
