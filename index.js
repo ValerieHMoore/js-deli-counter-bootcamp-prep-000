@@ -11,7 +11,7 @@
 function currentLine(katzDeliLine) {
     var i = 0 
     while (i < katzDeliLine.length) {
-    return ("The line is currently: " + katzDeliLine[i] + ". " + katzDeliLine.shift())
+    return ("The line is currently: " + [i] + ". " + katzDeliLine.shift())
   }
 return "The line is currently empty."
   }
