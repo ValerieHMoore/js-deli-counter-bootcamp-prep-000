@@ -4,7 +4,7 @@
  }
  function nowServing(katzDeliLine, name){
    while (katzDeliLine.length > 0) {
-     return ("Currently serving" + katzDeliLine.shift())
+     return ("Currently serving " + katzDeliLine.shift() + ".")
    }
  return "There is nobody waiting to be served!"
    }
