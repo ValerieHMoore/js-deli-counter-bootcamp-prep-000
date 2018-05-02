@@ -10,7 +10,7 @@
    }
 function currentLine(katzDeliLine) {
   while (katzDeliLine.length > 0) {
-    return ("The line is currently: " + katzDeliLineliLine.shift()
+    return ("The line is currently: " + katzDeliLineliLine.shift())
   }
 return "The line is currently empty."
   }
