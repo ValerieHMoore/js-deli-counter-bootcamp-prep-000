@@ -1,4 +1,4 @@
  function takeANumber(katzDeliLine, name) {
    katzDeliLine.push(name)
-  return katzDeliLine.index
+  return katzDeliLine.length
  }
