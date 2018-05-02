@@ -9,5 +9,8 @@
  return "There is nobody waiting to be served!"
    }
 function currentLine(katzDeliLine) {
-  return katzDeliLine.length
-}
+  while (katzDeliLine.length > 0) {
+    return katzDeliLine.shift()
+  }
+return "The line is currently empty."
+  }
