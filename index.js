@@ -2,4 +2,4 @@
    katzDeliLine.push(name)
   return katzDeliLine.length
  }
- 
+ function nowServing()
